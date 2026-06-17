@@ -8,13 +8,12 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript para consulta de endere�
 * Preenchimento automático de endereço
 * Exibição de logradouro, bairro, cidade e estado
 * Tratamento de CEP inválido ou inexistente
-* Tratamento de erros de conexão
 
 ## Tecnologias Utilizadas
 
-* HTML5
-* CSS3
-* JavaScript ES6+
+* HTML
+* CSS
+* JavaScript
 * Fetch API
 * Async/Await
 
