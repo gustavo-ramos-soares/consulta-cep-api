@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>ConsultaCEP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+    
+        <form>
+            <h2>Consulta de CEP</h2>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" maxlength="8">
+
+            <button type="button" onclick="buscarCEP()">
+                Buscar
+            </button>
+
+            <label>Logradouro:</label>
+            <input type="text" id="logradouro" readonly>
+
+            <label>Bairro:</label>
+            <input type="text" id="bairro" readonly>
+
+            <label>Cidade:</label>
+            <input type="text" id="cidade" readonly>
+
+            <label>Estado:</label>
+            <input type="text" id="estado" readonly>
+        </form>
+
+    </main>
+
+    
+</body>
+</html>
